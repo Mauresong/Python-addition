@@ -1,11 +1,13 @@
-#prompt client enter numbers
+#program to find the addition of two numbers
 
-#get client's numbers(at least 2)
-num1 = int(input("Please enter your number a:"))
-num2 = int(input("Please enter your number a:"))
+#takes the input of 1st number from the user and stores it in num1 
+num1 = int(input("Please enter your number num1:"))
 
+#takes the input of 2nd number from thwe user and stores it in num2
+num2 = int(input("Please enter your number num2:"))
 
-#summing the 2 acquired numbers and outputting the corresponding result
-
+#stores the addition of two numbers
 add = num1 + num2
-print('result is %d:'%(add))
+
+#prints the addition two numbers
+print("Addition of Two numbers is : ",add)
